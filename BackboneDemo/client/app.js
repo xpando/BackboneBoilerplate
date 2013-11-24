@@ -1,10 +1,10 @@
 ﻿define([
-  'marionette',
-  'layout',
-], function (Marionette, Layout) {
+  'backbone',
+  'marionette'
+], function (Backbone, Marionette) {
 
   var app = new Marionette.Application();
-
+  
   app.on("initialize:after", function (options) {
     if (Backbone.history) {
       Backbone.history.start();

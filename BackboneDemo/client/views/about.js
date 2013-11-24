@@ -1,6 +1,6 @@
 ﻿define([
   'marionette',
-  'text!views/templates/home.html'
+  'tpl!views/templates/about.html'
 ], function (Marionette, template) {
 
   return new Marionette.ItemView({

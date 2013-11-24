@@ -57,9 +57,9 @@
     <Content Include="client\libs\bootstrap.min.js.map">
       <DependentUpon>bootstrap.js</DependentUpon>
     </Content>
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="client\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="client\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="client\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="client\libs\jquery.min.js.map">
       <DependentUpon>jquery.js</DependentUpon>
     </Content>
@@ -86,7 +86,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="client\Layout.js" />
+    <Content Include="client\shell.js" />
     <Content Include="client\libs\backbone.babysitter.js" />
     <Content Include="client\libs\backbone.babysitter.min.js">
       <DependentUpon>backbone.babysitter.js</DependentUpon>
@@ -99,18 +99,23 @@
     <Content Include="client\libs\tpl.min.js">
       <DependentUpon>tpl.js</DependentUpon>
     </Content>
-    <Content Include="css\bootstrap-theme.css" />
-    <Content Include="css\bootstrap-theme.min.css">
+    <Content Include="client\css\bootstrap-theme.css" />
+    <Content Include="client\css\bootstrap-theme.min.css">
       <DependentUpon>bootstrap-theme.css</DependentUpon>
     </Content>
-    <Content Include="css\bootstrap.css" />
-    <Content Include="css\bootstrap.min.css">
+    <Content Include="client\css\bootstrap.css" />
+    <Content Include="client\css\bootstrap.min.css">
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
-    <Content Include="css\site.css" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="client\css\site.css" />
+    <Content Include="client\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="client\main.js" />
+    <Content Include="client\router.js" />
+    <Content Include="client\vent.js" />
+    <Content Include="client\views\about.js" />
+    <Content Include="client\views\templates\about.html" />
     <Content Include="Index.html" />
-    <Content Include="client\App.js" />
+    <Content Include="client\app.js" />
     <Content Include="client\libs\backbone.marionette.js" />
     <Content Include="client\libs\jquery.js" />
     <Content Include="client\libs\jquery.min.js">
@@ -123,7 +128,7 @@
     <Content Include="client\libs\text.min.js">
       <DependentUpon>text.js</DependentUpon>
     </Content>
-    <Content Include="client\main.js" />
+    <Content Include="client\config.js" />
     <Content Include="client\libs\backbone.js" />
     <Content Include="client\libs\backbone.min.js">
       <DependentUpon>backbone.js</DependentUpon>
@@ -140,7 +145,7 @@
     <Content Include="client\libs\underscore.min.js">
       <DependentUpon>underscore.js</DependentUpon>
     </Content>
-    <Content Include="client\views\HomeView.js" />
+    <Content Include="client\views\home.js" />
     <Content Include="client\views\templates\home.html" />
     <Content Include="Web.config" />
   </ItemGroup>
